@@ -21,7 +21,7 @@ os.makedirs("../visuals", exist_ok=True)
 # Extract ZIP File
 # -----------------------------------------
 
-zip_path = "../archive(1).zip"
+zip_path = "../archive (1).zip"
 
 extract_path = "../data"
 
