@@ -14,6 +14,11 @@ import seaborn as sns
 # -----------------------------------------
 # Create visuals folder if not exists
 # -----------------------------------------
+import os
+
+print("Current Directory:", os.getcwd())
+print("Files:", os.listdir("."))
+
 
 os.makedirs("../visuals", exist_ok=True)
 
